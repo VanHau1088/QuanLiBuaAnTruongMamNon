@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="QLCBAModelStoreContainer" CdmEntityContainer="QLCBAEntities">
+    <EntitySetMapping Name="BUOIAN">
+      <EntityTypeMapping TypeName="QLCBAModel.BUOIAN">
+        <MappingFragment StoreEntitySet="BUOIAN">
+          <ScalarProperty Name="MABUOI" ColumnName="MABUOI" />
+          <ScalarProperty Name="TENBUOIAN" ColumnName="TENBUOIAN" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KHOI">
+      <EntityTypeMapping TypeName="QLCBAModel.KHOI">
+        <MappingFragment StoreEntitySet="KHOI">
+          <ScalarProperty Name="MAKHOI" ColumnName="MAKHOI" />
+          <ScalarProperty Name="TENKHOI" ColumnName="TENKHOI" />
+          <ScalarProperty Name="GHICHU" ColumnName="GHICHU" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LOP">
+      <EntityTypeMapping TypeName="QLCBAModel.LOP">
+        <MappingFragment StoreEntitySet="LOP">
+          <ScalarProperty Name="MALOP" ColumnName="MALOP" />
+          <ScalarProperty Name="TENLOP" ColumnName="TENLOP" />
+          <ScalarProperty Name="GIAOVIEN" ColumnName="GIAOVIEN" />
+          <ScalarProperty Name="MAKHOI" ColumnName="MAKHOI" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MONAN">
+      <EntityTypeMapping TypeName="QLCBAModel.MONAN">
+        <MappingFragment StoreEntitySet="MONAN">
+          <ScalarProperty Name="MAMONAN" ColumnName="MAMONAN" />
+          <ScalarProperty Name="TENMONAN" ColumnName="TENMONAN" />
+          <ScalarProperty Name="DINHDUONG" ColumnName="DINHDUONG" />
+          <ScalarProperty Name="GHICHU" ColumnName="GHICHU" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="THUCDON">
+      <EntityTypeMapping TypeName="QLCBAModel.THUCDON">
+        <MappingFragment StoreEntitySet="THUCDON">
+          <ScalarProperty Name="NGAY" ColumnName="NGAY" />
+          <ScalarProperty Name="MABUOI" ColumnName="MABUOI" />
+          <ScalarProperty Name="MAMONAN" ColumnName="MAMONAN" />
+          <ScalarProperty Name="MALOP" ColumnName="MALOP" />
+          <ScalarProperty Name="GHICHU" ColumnName="GHICHU" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

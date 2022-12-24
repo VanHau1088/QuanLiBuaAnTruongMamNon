@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QLCBAModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="BUOIAN">
+    <Key>
+      <PropertyRef Name="MABUOI" />
+    </Key>
+    <Property Name="MABUOI" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="TENBUOIAN" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="KHOI">
+    <Key>
+      <PropertyRef Name="MAKHOI" />
+    </Key>
+    <Property Name="MAKHOI" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="TENKHOI" Type="nvarchar" MaxLength="50" />
+    <Property Name="GHICHU" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="LOP">
+    <Key>
+      <PropertyRef Name="MALOP" />
+    </Key>
+    <Property Name="MALOP" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="TENLOP" Type="nvarchar" MaxLength="50" />
+    <Property Name="GIAOVIEN" Type="nvarchar" MaxLength="50" />
+    <Property Name="MAKHOI" Type="varchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="MONAN">
+    <Key>
+      <PropertyRef Name="MAMONAN" />
+    </Key>
+    <Property Name="MAMONAN" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="TENMONAN" Type="nvarchar" MaxLength="50" />
+    <Property Name="DINHDUONG" Type="nvarchar" MaxLength="50" />
+    <Property Name="GHICHU" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="THUCDON">
+    <Key>
+      <PropertyRef Name="NGAY" />
+      <PropertyRef Name="MABUOI" />
+      <PropertyRef Name="MAMONAN" />
+    </Key>
+    <Property Name="NGAY" Type="date" Nullable="false" />
+    <Property Name="MABUOI" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="MAMONAN" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="MALOP" Type="varchar" MaxLength="10" />
+    <Property Name="GHICHU" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_LOP_MAKHOI">
+    <End Role="KHOI" Type="Self.KHOI" Multiplicity="0..1" />
+    <End Role="LOP" Type="Self.LOP" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KHOI">
+        <PropertyRef Name="MAKHOI" />
+      </Principal>
+      <Dependent Role="LOP">
+        <PropertyRef Name="MAKHOI" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_THUCDON_MABUOI">
+    <End Role="BUOIAN" Type="Self.BUOIAN" Multiplicity="1" />
+    <End Role="THUCDON" Type="Self.THUCDON" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BUOIAN">
+        <PropertyRef Name="MABUOI" />
+      </Principal>
+      <Dependent Role="THUCDON">
+        <PropertyRef Name="MABUOI" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_THUCDON_MALOP">
+    <End Role="LOP" Type="Self.LOP" Multiplicity="0..1" />
+    <End Role="THUCDON" Type="Self.THUCDON" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LOP">
+        <PropertyRef Name="MALOP" />
+      </Principal>
+      <Dependent Role="THUCDON">
+        <PropertyRef Name="MALOP" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_THUCDON_MAMONAN">
+    <End Role="MONAN" Type="Self.MONAN" Multiplicity="1" />
+    <End Role="THUCDON" Type="Self.THUCDON" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MONAN">
+        <PropertyRef Name="MAMONAN" />
+      </Principal>
+      <Dependent Role="THUCDON">
+        <PropertyRef Name="MAMONAN" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="QLCBAModelStoreContainer">
+    <EntitySet Name="BUOIAN" EntityType="Self.BUOIAN" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="KHOI" EntityType="Self.KHOI" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LOP" EntityType="Self.LOP" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MONAN" EntityType="Self.MONAN" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="THUCDON" EntityType="Self.THUCDON" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_LOP_MAKHOI" Association="Self.FK_LOP_MAKHOI">
+      <End Role="KHOI" EntitySet="KHOI" />
+      <End Role="LOP" EntitySet="LOP" />
+    </AssociationSet>
+    <AssociationSet Name="FK_THUCDON_MABUOI" Association="Self.FK_THUCDON_MABUOI">
+      <End Role="BUOIAN" EntitySet="BUOIAN" />
+      <End Role="THUCDON" EntitySet="THUCDON" />
+    </AssociationSet>
+    <AssociationSet Name="FK_THUCDON_MALOP" Association="Self.FK_THUCDON_MALOP">
+      <End Role="LOP" EntitySet="LOP" />
+      <End Role="THUCDON" EntitySet="THUCDON" />
+    </AssociationSet>
+    <AssociationSet Name="FK_THUCDON_MAMONAN" Association="Self.FK_THUCDON_MAMONAN">
+      <End Role="MONAN" EntitySet="MONAN" />
+      <End Role="THUCDON" EntitySet="THUCDON" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

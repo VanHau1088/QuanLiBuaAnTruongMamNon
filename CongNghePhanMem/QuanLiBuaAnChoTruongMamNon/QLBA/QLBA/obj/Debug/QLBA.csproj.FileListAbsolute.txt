@@ -1,0 +1,137 @@
+E:\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\QLBA.exe.config
+E:\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\QLBA.exe
+E:\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\QLBA.pdb
+E:\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\obj\Debug\QLBA.csproj.AssemblyReference.cache
+E:\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\obj\Debug\QLBA.Form1.resources
+E:\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\obj\Debug\QLBA.Properties.Resources.resources
+E:\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\obj\Debug\QLBA.csproj.GenerateResource.cache
+E:\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\obj\Debug\QLBA.csproj.CoreCompileInputs.cache
+E:\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\obj\Debug\QLBA.exe
+E:\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\obj\Debug\QLBA.pdb
+C:\Users\Van Hau\Downloads\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\QLBA.exe.config
+C:\Users\Van Hau\Downloads\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\QLBA.exe
+C:\Users\Van Hau\Downloads\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\QLBA.pdb
+C:\Users\Van Hau\Downloads\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\obj\Debug\QLBA.csproj.AssemblyReference.cache
+C:\Users\Van Hau\Downloads\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\obj\Debug\QLBA.csproj.SuggestedBindingRedirects.cache
+C:\Users\Van Hau\Downloads\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\obj\Debug\QLBA.Form1.resources
+C:\Users\Van Hau\Downloads\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\obj\Debug\QLBA.Properties.Resources.resources
+C:\Users\Van Hau\Downloads\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\obj\Debug\QLBA.ThongTinTre.resources
+C:\Users\Van Hau\Downloads\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\obj\Debug\QLBA.csproj.GenerateResource.cache
+C:\Users\Van Hau\Downloads\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\obj\Debug\QLBA.csproj.CoreCompileInputs.cache
+C:\Users\Van Hau\Downloads\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\obj\Debug\QLBA.exe
+C:\Users\Van Hau\Downloads\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\obj\Debug\QLBA.pdb
+C:\Users\Van Hau\Downloads\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\obj\Debug\QLBA.ThongTinGiaoVien.resources
+C:\Users\Van Hau\Downloads\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\obj\Debug\QLBA.DangNhap.resources
+C:\Users\Van Hau\Downloads\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\obj\Debug\QLBA.QuanLiBuaAn.resources
+C:\Users\Van Hau\Downloads\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\obj\Debug\QLBA.TaiKhoan.resources
+C:\Users\Van Hau\Downloads\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\obj\Debug\QLBA.ThemGiaoVien.resources
+C:\Users\Van Hau\Downloads\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\obj\Debug\QLBA.ThemHocSinh.resources
+C:\Users\Van Hau\Downloads\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\obj\Debug\QLBA.XepLop.resources
+C:\Users\Van Hau\Downloads\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\EntityFramework.dll
+C:\Users\Van Hau\Downloads\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Van Hau\Downloads\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\EntityFramework.xml
+C:\Users\Van Hau\Downloads\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Van Hau\Downloads\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\obj\Debug\QLBA.csproj.CopyComplete
+D:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\EntityFramework.dll
+D:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\EntityFramework.SqlServer.dll
+D:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\EntityFramework.xml
+D:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\EntityFramework.SqlServer.xml
+D:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\obj\Debug\QLBA.csproj.AssemblyReference.cache
+D:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\obj\Debug\QLBA.csproj.SuggestedBindingRedirects.cache
+D:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\obj\Debug\QLBA.DangNhap.resources
+D:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\obj\Debug\QLBA.Form1.resources
+D:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\obj\Debug\QLBA.Properties.Resources.resources
+D:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\obj\Debug\QLBA.QuanLiBuaAn.resources
+D:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\obj\Debug\QLBA.TaiKhoan.resources
+D:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\obj\Debug\QLBA.csproj.GenerateResource.cache
+D:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\obj\Debug\QLBA.csproj.CoreCompileInputs.cache
+D:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\obj\Debug\QLBA.csproj.CopyComplete
+D:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\obj\Debug\QLBA.ThongTinGiaoVien.resources
+D:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\obj\Debug\QLBA.KhoiLop.resources
+D:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\obj\Debug\QLBA.PhanCong.resources
+D:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\obj\Debug\QLBA.ThongTinTre.resources
+D:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\obj\Debug\QLBA.ThemGiaoVien.resources
+D:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\obj\Debug\QLBA.ThemTre.resources
+D:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\1.exe.config
+D:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\1.exe
+D:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\1.pdb
+D:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\obj\Debug\1.exe
+D:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\obj\Debug\1.pdb
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\obj\Debug\QLBA.csproj.AssemblyReference.cache
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\obj\Debug\QLBA.csproj.SuggestedBindingRedirects.cache
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\obj\Debug\QLBA.DangNhap.resources
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\obj\Debug\QLBA.Form1.resources
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\obj\Debug\QLBA.PhanCong.resources
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\obj\Debug\QLBA.Properties.Resources.resources
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\obj\Debug\QLBA.TaiKhoan.resources
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\obj\Debug\QLBA.KhoiLop.resources
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\obj\Debug\QLBA.ThongTinTre.resources
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\obj\Debug\QLBA.csproj.GenerateResource.cache
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\obj\Debug\QLBA.csproj.CoreCompileInputs.cache
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\obj\Debug\1.exe
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\obj\Debug\1.pdb
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\1.exe.config
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\1.exe
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\1.pdb
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\EntityFramework.dll
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\EntityFramework.SqlServer.dll
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\EntityFramework.xml
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\EntityFramework.SqlServer.xml
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\obj\Debug\QLBA.csproj.CopyComplete
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\obj\Debug\QLBA.ThemGiaoVien_News_.resources
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\obj\Debug\QLBA.QuanLiBuaAn.resources
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\obj\Debug\QLBA.ThongTinPhuHuynh.resources
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\obj\Debug\QLBA.Report_HocPhi.resources
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\Microsoft.ReportViewer.Common.dll
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\Microsoft.ReportViewer.Design.dll
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\Microsoft.SqlServer.Types.dll
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\EnvDTE.dll
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\stdole.dll
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+E:\CongNghePhanMem\QuanLiBuaAnChoTruongMamNon\QLBA\QLBA\obj\Debug\QLBA.Report_BuaAn.resources

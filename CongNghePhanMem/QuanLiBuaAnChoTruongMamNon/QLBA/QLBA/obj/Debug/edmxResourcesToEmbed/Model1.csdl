@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QLCBAModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="BUOIAN">
+    <Key>
+      <PropertyRef Name="MABUOI" />
+    </Key>
+    <Property Name="MABUOI" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TENBUOIAN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="THUCDON" Relationship="Self.FK_THUCDON_MABUOI" FromRole="BUOIAN" ToRole="THUCDON" />
+  </EntityType>
+  <EntityType Name="KHOI">
+    <Key>
+      <PropertyRef Name="MAKHOI" />
+    </Key>
+    <Property Name="MAKHOI" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TENKHOI" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="GHICHU" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="LOP" Relationship="Self.FK_LOP_MAKHOI" FromRole="KHOI" ToRole="LOP" />
+  </EntityType>
+  <EntityType Name="LOP">
+    <Key>
+      <PropertyRef Name="MALOP" />
+    </Key>
+    <Property Name="MALOP" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TENLOP" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="GIAOVIEN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MAKHOI" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="KHOI" Relationship="Self.FK_LOP_MAKHOI" FromRole="LOP" ToRole="KHOI" />
+    <NavigationProperty Name="THUCDON" Relationship="Self.FK_THUCDON_MALOP" FromRole="LOP" ToRole="THUCDON" />
+  </EntityType>
+  <EntityType Name="MONAN">
+    <Key>
+      <PropertyRef Name="MAMONAN" />
+    </Key>
+    <Property Name="MAMONAN" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TENMONAN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DINHDUONG" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="GHICHU" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="THUCDON" Relationship="Self.FK_THUCDON_MAMONAN" FromRole="MONAN" ToRole="THUCDON" />
+  </EntityType>
+  <EntityType Name="THUCDON">
+    <Key>
+      <PropertyRef Name="NGAY" />
+      <PropertyRef Name="MABUOI" />
+      <PropertyRef Name="MAMONAN" />
+    </Key>
+    <Property Name="NGAY" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="MABUOI" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="MAMONAN" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="MALOP" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="GHICHU" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="BUOIAN" Relationship="Self.FK_THUCDON_MABUOI" FromRole="THUCDON" ToRole="BUOIAN" />
+    <NavigationProperty Name="LOP" Relationship="Self.FK_THUCDON_MALOP" FromRole="THUCDON" ToRole="LOP" />
+    <NavigationProperty Name="MONAN" Relationship="Self.FK_THUCDON_MAMONAN" FromRole="THUCDON" ToRole="MONAN" />
+  </EntityType>
+  <Association Name="FK_THUCDON_MABUOI">
+    <End Role="BUOIAN" Type="Self.BUOIAN" Multiplicity="1" />
+    <End Role="THUCDON" Type="Self.THUCDON" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BUOIAN">
+        <PropertyRef Name="MABUOI" />
+      </Principal>
+      <Dependent Role="THUCDON">
+        <PropertyRef Name="MABUOI" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_LOP_MAKHOI">
+    <End Role="KHOI" Type="Self.KHOI" Multiplicity="0..1" />
+    <End Role="LOP" Type="Self.LOP" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KHOI">
+        <PropertyRef Name="MAKHOI" />
+      </Principal>
+      <Dependent Role="LOP">
+        <PropertyRef Name="MAKHOI" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_THUCDON_MALOP">
+    <End Role="LOP" Type="Self.LOP" Multiplicity="0..1" />
+    <End Role="THUCDON" Type="Self.THUCDON" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LOP">
+        <PropertyRef Name="MALOP" />
+      </Principal>
+      <Dependent Role="THUCDON">
+        <PropertyRef Name="MALOP" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_THUCDON_MAMONAN">
+    <End Role="MONAN" Type="Self.MONAN" Multiplicity="1" />
+    <End Role="THUCDON" Type="Self.THUCDON" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MONAN">
+        <PropertyRef Name="MAMONAN" />
+      </Principal>
+      <Dependent Role="THUCDON">
+        <PropertyRef Name="MAMONAN" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="QLCBAEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="BUOIAN" EntityType="Self.BUOIAN" />
+    <EntitySet Name="KHOI" EntityType="Self.KHOI" />
+    <EntitySet Name="LOP" EntityType="Self.LOP" />
+    <EntitySet Name="MONAN" EntityType="Self.MONAN" />
+    <EntitySet Name="THUCDON" EntityType="Self.THUCDON" />
+    <AssociationSet Name="FK_THUCDON_MABUOI" Association="Self.FK_THUCDON_MABUOI">
+      <End Role="BUOIAN" EntitySet="BUOIAN" />
+      <End Role="THUCDON" EntitySet="THUCDON" />
+    </AssociationSet>
+    <AssociationSet Name="FK_LOP_MAKHOI" Association="Self.FK_LOP_MAKHOI">
+      <End Role="KHOI" EntitySet="KHOI" />
+      <End Role="LOP" EntitySet="LOP" />
+    </AssociationSet>
+    <AssociationSet Name="FK_THUCDON_MALOP" Association="Self.FK_THUCDON_MALOP">
+      <End Role="LOP" EntitySet="LOP" />
+      <End Role="THUCDON" EntitySet="THUCDON" />
+    </AssociationSet>
+    <AssociationSet Name="FK_THUCDON_MAMONAN" Association="Self.FK_THUCDON_MAMONAN">
+      <End Role="MONAN" EntitySet="MONAN" />
+      <End Role="THUCDON" EntitySet="THUCDON" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
